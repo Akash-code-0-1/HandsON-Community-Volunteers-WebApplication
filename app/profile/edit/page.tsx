@@ -18,10 +18,10 @@ export default function EditProfilePage() {
 
   // Mock user data
   const [formData, setFormData] = useState({
-    name: "Jane Smith",
-    email: "jane.smith@example.com",
+    name: "Tanvir",
+    email: "tanvir0ah0akash@gmail.com",
     bio: "Passionate about environmental conservation and education. I enjoy volunteering in my community and making a positive impact.",
-    location: "New York, NY",
+    location: "Dhaka, Bangladesh",
     phone: "(555) 123-4567",
     avatar: "/placeholder.svg?height=100&width=100",
     skills: ["Teaching", "Organizing", "First Aid"],

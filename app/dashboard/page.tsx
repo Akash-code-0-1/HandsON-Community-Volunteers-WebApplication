@@ -13,9 +13,9 @@ import { motion } from "framer-motion"
 
 export default function DashboardPage() {
   const [user] = useState({
-    name: "Jane Smith",
-    email: "jane.smith@example.com",
-    avatar: "/placeholder.svg?height=100&width=100",
+    name: "Tanvir",
+    email: "tanvir0ah0akash@gmail.com",
+    avatar: "https://github.com/Akash-code-0-1/Profile/blob/main/WhatsApp%20Image%202025-02-17%20at%2012,51,35%20PM-photoaidcom-cropped.jpeg?raw=true",
     hours: 45,
     points: 225,
     events: 8,

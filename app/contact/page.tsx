@@ -19,10 +19,11 @@ export default function ContactPage() {
     message: "",
   })
 
-  const handleChange = (e) => {
-    const { id, value } = e.target
-    setFormData((prev) => ({ ...prev, [id]: value }))
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { id, value } = e.target;
+    setFormData((prev) => ({ ...prev, [id]: value }));
   }
+
 
   const handleSelectChange = (value) => {
     setFormData((prev) => ({ ...prev, subject: value }))

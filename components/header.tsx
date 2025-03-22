@@ -64,9 +64,8 @@ export function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full border-b backdrop-blur supports-[backdrop-filter]:bg-background/60 transition-all duration-200 ${
-        isScrolled ? "bg-background/95 shadow-sm" : "bg-background/80"
-      }`}
+      className={`sticky top-0 z-50 w-full border-b backdrop-blur supports-[backdrop-filter]:bg-background/60 transition-all duration-200 ${isScrolled ? "bg-background/95 shadow-sm" : "bg-background/80"
+        }`}
     >
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
@@ -159,10 +158,10 @@ export function Header() {
               <div className="relative" ref={profileRef}>
                 <Button variant="ghost" className="flex items-center gap-2 focus-ring" onClick={toggleProfileMenu}>
                   <Avatar className="h-8 w-8 avatar-enhanced">
-                    <AvatarImage src="https://i.pravatar.cc/150?u=jane" alt="User" />
-                    <AvatarFallback>JS</AvatarFallback>
+                    <AvatarImage src="https://github.com/Akash-code-0-1/Profile/blob/main/WhatsApp%20Image%202025-02-17%20at%2012,51,35%20PM-photoaidcom-cropped.jpeg?raw=true" alt="User" />
+                    <AvatarFallback>T</AvatarFallback>
                   </Avatar>
-                  <span className="font-medium text-sm">Jane Smith</span>
+                  <span className="font-medium text-sm">Tanvir</span>
                   <ChevronDown
                     className={`h-4 w-4 text-muted-foreground transition-transform duration-200 ${showProfileMenu ? "rotate-180" : ""}`}
                   />

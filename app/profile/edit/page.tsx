@@ -23,7 +23,7 @@ export default function EditProfilePage() {
     bio: "Passionate about environmental conservation and education. I enjoy volunteering in my community and making a positive impact.",
     location: "Dhaka, Bangladesh",
     phone: "(555) 123-4567",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "https://github.com/Akash-code-0-1/Profile/blob/main/WhatsApp%20Image%202025-02-17%20at%2012,51,35%20PM-photoaidcom-cropped.jpeg?raw=true",
     skills: ["Teaching", "Organizing", "First Aid"],
     causes: ["Education", "Environment", "Elderly Care"],
     newSkill: "",

@@ -1,7 +1,6 @@
 # HANDS_ON_WEBAPP 🎨📊
 
 
-
 HANDS_ON_WEBAPP is a **frontend web application** built with **React.js, TypeScript, Tailwind CSS, and JavaScript**. It provides an interactive and user-friendly experience with various features and functionalities.  
 
 
